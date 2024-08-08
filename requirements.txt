@@ -6,3 +6,7 @@ chardet
 langdetect
 uvicorn
 python-multipart
+pyfb2
+EbookLib
+beautifulsoup4
+PyMuPDF

@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker, session, declarative_base
 # engine = create_async_engine(DATABASE_URL, echo=True)
 # SessionLocal = sessionmaker(bind=engine, class_=AsyncSession, expire_on_commit=False)
 # создадим или подключимся к базе данных
-SQLALCHEMY_BASE_URL = "sqlite:///book_listening.db"
+SQLALCHEMY_BASE_URL = "sqlite:///user.db"
 # создаем движок
 engine = create_engine(SQLALCHEMY_BASE_URL)
 # переменная, которая будет генерировать сессии
