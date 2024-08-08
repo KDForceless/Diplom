@@ -1,0 +1,7 @@
+fastapi
+sqlalchemy
+gtts
+pillow
+chardet
+langdetect
+uvicorn
